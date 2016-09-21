@@ -1,2 +1,2 @@
 #CV
-https://htmlpreview.github.io/?https://github.com/samirbensadi/CV/blob/master/cv.html
+https://htmlpreview.github.io/?https://github.com/samirbensadi/CV/blob/master/index.html
