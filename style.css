@@ -1,0 +1,158 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+/**************** GENERAL ****************/
+
+body, html
+{
+	height: 100%;
+}
+
+
+body 
+{
+	font-family: 'Montserrat',Verdana, sans-serif;
+}
+
+main
+{
+	position: relative;
+	min-height: 100%;
+}
+
+
+/**********SECTION DE PRESENTATION***********/
+
+.id /* section */
+{
+	height:980px;
+	width: 40%;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border:;
+	background-color: #2c261a;
+	
+}
+
+
+.photo
+{
+	float: left;
+	margin-left:30px;
+	margin-top: 50px;
+
+	/*image ronde:*/
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:120px;
+    width:220px;
+    height:220px;
+
+}
+
+.titre 
+{
+	float: left;
+	width: 50%;
+	margin-left:30px;
+	text-align: center;
+	color: white;
+}
+
+h1
+{
+	font-size: 42px;
+	margin: 10px 0;
+
+}
+
+p
+{
+	font-size: 20px;
+}
+
+.info
+{
+	float: left;
+	margin-top: 250px;
+}
+
+.info ul
+{
+	list-style-type: none;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+
+.info li
+{
+	margin: 0 5px;
+}
+
+.info a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.info a:hover
+{
+	color: #e95325;
+}
+
+
+/**********SECTION INFO DU CV***********/
+
+.corps /* section principale*/
+{
+	float: right;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+aside /* aside */
+
+{
+	width: 80%;
+	height: 180px;
+	margin: 30px;
+	border: 2px solid #e95325;
+}
+
+aside:hover
+{
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+}
+
+aside ul
+{
+	list-style-type: none;
+	text-align: center;
+}
+
+aside h2
+{
+	text-align: center;
+	margin: 10px;
+}
+
+.formation
+{
+	height: 220px;
+}
+
+.divers
+{
+	height: 150px;
+}
