@@ -1,0 +1,49 @@
+body
+{
+	width: 100%;
+	height:100%;
+	font-family:'Montserrat',sans-serif;
+
+
+	
+}
+
+header 
+{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.noms 
+{
+	text-align: center;
+}
+
+.avatar
+{
+	overflow:hidden;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    border-radius:90px;
+    width:190px;
+    height:190px;
+    box-shadow:3px 3px 6px 0px #656565;
+    background-image: url("mini_avatar.jpg");
+
+}
+
+.avatar:hover 
+{
+	background-image: url("coda.jpg");
+}
+
+hr 
+{
+	border:0;
+	height:1px;
+	background:#333;
+	background-image:linear-gradient (to right,#CCC,#333,#CCC);
+	margin: 50px 0px;
+}
+
