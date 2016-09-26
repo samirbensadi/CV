@@ -1,49 +1,159 @@
-body
+*
 {
-	width: 100%;
-	height:100%;
-	font-family:'Montserrat',sans-serif;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
 
 
+/**************** GENERAL ****************/
+
+body, html
+{
+	height: 100%;
+}
+
+
+body 
+{
+	font-family: 'Montserrat',Verdana, sans-serif;
+}
+
+main
+{
+	position: relative;
+	min-height: 100%;
+}
+
+
+/**********SECTION DE PRESENTATION***********/
+
+.id /* section */
+{
+	height:990px;
+	width: 40%;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border:;
+	background-color: #2c261a;
 	
 }
 
-header 
+
+.photo
 {
-	display: flex;
-	justify-content: space-around;
+	float: left;
+	margin-left:30px;
+	margin-top: 50px;
+
+	/*image ronde:*/
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:120px;
+    width:220px;
+    height:220px;
 
 }
 
-.noms 
+.titre 
 {
+	float: left;
+	width: 50%;
+	margin-left:30px;
+	text-align: center;
+	color: white;
+}
+
+h1
+{
+	font-size: 40px;
+	margin: 10px 0;
+
+}
+
+p
+{
+	font-size: 20px;
+}
+
+.info
+{
+	float: left;
+	margin-top: 250px;
+}
+
+.info ul
+{
+	list-style-type: none;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+
+.info li
+{
+	margin: 0 5px;
+}
+
+.info a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.info a:hover
+{
+	color: #e95325;
+}
+
+
+/**********SECTION INFO DU CV***********/
+
+.corps /* section principale*/
+{
+	float: right;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+aside /* aside */
+
+{
+	width: 80%;
+	height: 180px;
+	margin: 30px;
+	border: 1px solid #e95325;
+	border-radius: 9px;
+}
+
+aside:hover
+{
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+}
+
+aside ul
+{
+	list-style-type: none;
 	text-align: center;
 }
 
-.avatar
+aside h2
 {
-	overflow:hidden;
-    -webkit-border-radius:100px;
-    -moz-border-radius:100px;
-    border-radius:90px;
-    width:190px;
-    height:190px;
-    box-shadow:3px 3px 6px 0px #656565;
-    background-image: url("mini_avatar.jpg");
-
+	text-align: center;
+	margin: 10px;
 }
 
-.avatar:hover 
+.formation
 {
-	background-image: url("coda.jpg");
+	height: 220px;
 }
 
-hr 
+.divers
 {
-	border:0;
-	height:1px;
-	background:#333;
-	background-image:linear-gradient (to right,#CCC,#333,#CCC);
-	margin: 50px 0px;
+	height: 150px;
 }
-
