@@ -28,9 +28,9 @@ main
 
 /**********SECTION DE PRESENTATION***********/
 
-.id /* section */
+.identity /* section */
 {
-	height:1080px/*990px*/;
+	height:1080px;
 	width: 40%;
 	float: left;
 	display: flex;
@@ -46,13 +46,13 @@ main
 .photo
 {
 	background: url(img/mini_gris.jpg) no-repeat;
+	background-size: cover;
 	margin-left:30px;
 	margin-top: 50px;
-
 	/*image ronde:*/
     overflow:hidden;
-    /*-webkit-border-radius:50px;
-    -moz-border-radius:50px;*/
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
     border-radius:120px;
     width:220px;
     height:220px;
@@ -97,7 +97,7 @@ p
 
 #pdf:hover
 {
-	border:2px solid #e95325;
+	border:2px solid black;
 	background-color:#e95325;
 	color: white;
 
@@ -169,7 +169,6 @@ aside /* aside */
 
 {
 	width: 80%;
-	height: 180px;
 	margin: 20px;
 	border: 1px solid #e95325;
 	border-radius: 9px;
@@ -182,6 +181,7 @@ aside:hover
 
 aside ul
 {
+	margin: 10px;
 	list-style-type: none;
 	text-align: center;
 }
@@ -192,12 +192,3 @@ aside h2
 	margin: 10px;
 }
 
-.formation
-{
-	height: 220px;
-}
-
-.divers
-{
-	height: 150px;
-}
