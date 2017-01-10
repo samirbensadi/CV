@@ -14,11 +14,12 @@ body, html
 }
 
 
-body 
+body
 {
 	font-family: 'Montserrat',Verdana, sans-serif;
 	background-image: url("img/backimg.jpg");
 	background-size: cover;
+	height: auto;
 }
 
 main
@@ -32,16 +33,15 @@ main
 
 .identity /* section */
 {
-	height:1080px;
+	height:100%;
 	width: 40%;
 	float: left;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	border:;
 	background-color: rgba(0, 0, 0, 0.6);
 	position: fixed;
-	
+
 }
 
 
@@ -66,7 +66,7 @@ main
 	background-image: url(img/mini_avatar.jpg);
 }
 
-.titre 
+.titre
 {
 	float: left;
 	width: 50%;
@@ -159,7 +159,7 @@ button
 	margin-top: 16px;
 	width: 150px;
 	color: #e95325;
-	
+
 }
 button:hover
 {
@@ -172,9 +172,7 @@ aside /* aside */
 {
 	width: 80%;
 	margin: 20px;
-	/*border: 1px solid #e95325;*/
-	/*border-radius: 9px;*/
-	background-color: rgba(255, 255, 255,.6);
+	background-color: rgba(255, 255, 255,.4);
 }
 
 aside:hover
@@ -201,3 +199,54 @@ aside h2 a
 	color:black;
 }
 
+/*Formulaire*/
+
+form
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin:40px;
+}
+
+input{
+	margin: 10px;
+	height: 40px;
+	width: 400px;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border:0;
+	font-size: 18px;
+	color: white;
+}
+
+textarea{
+	margin: 10px;
+	height: 150px;
+	width: 400px;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border:0;
+	font-size: 17px;
+	color: white;
+}
+
+form button
+{
+
+	margin: 10px;
+	height: 40px;
+	width:100px;
+	border-radius: 3px;
+	font-size: 18px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	border:0;
+	transition: all 0.5s;
+}
+
+form button:hover
+{
+	background-color: rgba(255,255,255,0.5);
+	color: black;
+}
